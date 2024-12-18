@@ -1,0 +1,102 @@
+.about-section{
+    margin-left: 30px;
+    margin-top: 300px;
+    margin-right: 30px;
+    text-align: center;
+}
+.row{
+    background-color: rgb(27, 169, 235);
+    height: 3px;
+    width: 50px;
+    margin-left: 620px;
+}
+.row1{
+    margin-top: 4px;
+    background-color: rgb(27, 169, 235);
+    height: 3px;
+    width: 30px;
+    margin-left: 630px;
+}
+.about-section h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.about-section h3 span{
+    color: rgb(27, 169, 235);
+}
+.about-section p{
+    font-size: 3vh;
+}
+.about-infoSection{
+ display: flex;
+ margin-bottom: 30px;
+}
+.about-info{
+    flex: 0 0 100%;
+    max-width: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    line-height: 40px;
+}
+.about-info span{
+    font-weight: bold;
+}
+.about-infoData{
+    margin-left: 30px;
+
+}
+.about-infoData ul{
+    list-style: none;
+    line-height: 40px;
+}
+.about-infoData ul li{
+    border-bottom: 1.5px solid rgb(68, 62, 62) ;
+    margin-top: 20px;
+}
+.about-btn1{
+    position: relative;
+    right: 200px;
+    padding: 10px 50px;
+    margin-top: 30px;
+    font-size: 2.5vh;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(27, 169, 235);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.about-btn{
+    position: relative;
+    right: 180px;
+    padding: 10px 50px;
+    margin-top: 30px;
+    font-size: 2.5vh;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(27, 169, 235);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.about-skills{
+    margin-top: 60px;
+    flex: 0 0 100%;
+    max-width: 43%;
+}
+.about-skill{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(41, 39, 39);
+}
+.about-skill hr{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 5px;
+    width: 80%;
+    background:  rgb(27, 169, 235);
+}

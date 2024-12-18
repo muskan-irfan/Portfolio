@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px ;
+}
+.navbar h3 span{
+  color: rgb(27, 169, 235);
+}
+.nav-logo{
+    height: 50px;
+    width: 50px;
+}
+.nav-list{
+    display: flex;
+    gap: 60px;
+    font-size: 2.5vh;
+    list-style: none;
+}
+.nav-btn{
+    padding: 10px 20px;
+    font-size: 2.5vh;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(27, 169, 235);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-btn:hover{
+    transform: scale(1.05);
+  
+}
+.nav{
+    text-decoration: none;
+}
+.nav:hover{
+    color: rgb(27, 169, 235);;
+}

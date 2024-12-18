@@ -1,0 +1,30 @@
+.portfolio-section{
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.portfolio-row{
+    margin-left: 620px;
+    background-color: rgb(27, 169, 235);
+    height: 3px;
+    width: 70px;
+}
+.portfolio-row1{
+    margin-top: 4px;
+    margin-left: 640px;
+    background-color: rgb(27, 169, 235);
+    height: 3px;
+    width: 30px;
+}
+.imag{
+    height: 300px;
+    width:  250px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.imag img{
+    width:  250px;
+    height: 300px;
+    border-radius: 5px;
+}

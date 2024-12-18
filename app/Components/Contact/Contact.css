@@ -1,0 +1,78 @@
+.contact-section{
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.contact-info{
+    display: flex;
+}
+.contact-section h1{
+  text-align: center;
+}
+.contact-row{
+    margin-left: 620px;
+    background-color: rgb(27, 169, 235);
+    height: 3px;
+    width: 70px;
+}
+.contact-row1{
+    margin-top: 4px;
+    margin-left: 640px;
+    background-color: rgb(27, 169, 235);
+    height: 3px;
+    width: 30px;
+}
+.contact-info-left{
+    height: 200px;
+    width: 45%;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.contact-info-left h3{
+    font-size: 40px;
+    color: rgb(27, 169, 235);
+ }
+.contact-info-left p{
+    margin-top: 10px;
+    font-size: 17px;
+
+}
+.contact-info-left span{
+    color: rgb(27, 169, 235) ;
+     font-weight: bolder;
+}
+.contact-info-right{
+    margin-top: 80px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.contact-info-right input{
+    height: 50px;
+    width: 500px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(26, 25, 25);
+    padding-left: 10px;
+}
+.contact-info-right textarea{
+    height: 120px;
+    width: 500px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(26, 25, 25);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.submit-btn{
+    padding: 10px 50px;
+    margin-top: 30px;
+    font-size: 2.5vh;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(27, 169, 235);
+    cursor: pointer;
+}
